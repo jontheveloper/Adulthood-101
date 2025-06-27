@@ -87,3 +87,47 @@ progress::-webkit-progress-value {
 #clear-button:hover {
   background-color: #c0392b;
 }
+
+
+/* Mobile responsiveness for small screens */
+@media (max-width: 768px) {
+
+  body {
+    font-size: 16px;
+    padding: 0 1rem;
+  }
+
+  header h1 {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+
+  .learn-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .learn-card, .learn-carda, .learn-cardb, .learn-cardc, .learn-cardd, .learn-carde, .learn-cardf, .learn-cardg {
+    padding: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .checklist-section {
+    padding: 1.5rem 1rem;
+  }
+
+  .quiz-section {
+    padding: 2rem 1rem;
+  }
+
+  .start-quiz-button {
+    width: 100%;
+    font-size: 1.1rem;
+  }
+
+  footer {
+    text-align: center;
+    padding: 1rem;
+  }
+
+}
+
