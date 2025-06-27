@@ -13,7 +13,6 @@ h1,h2,h3,h4{
 	font-size: 40px;
 }
 nav {
-	color: black;
 	display: flex;
 	justify-content: space-around;
 	padding-bottom: 500px;
@@ -26,7 +25,6 @@ a{
 
 }
 a:hover{
-	color: black;
 	background: lightgrey;
 	cursor: pointer;
 	font-weight: bold;
