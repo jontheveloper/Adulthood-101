@@ -90,40 +90,47 @@ progress::-webkit-progress-value {
 /* Mobile responsiveness for small screens */
 @media (max-width: 768px) {
 
-  body {
+body {
     font-size: 21px;
     padding: 0 1rem;
   }
 
-  header h1 {
-    font-size: 21;
+header {
+    font-size: 24px;
     text-align: center;
     font-weight: bold;
   }
+nav{
+   padding-bottom: 500px;
+}
 
-  .learn-grid {
+a{
+   size: 20px;
+   padding: 20px 25px;
+  }
+.learn-grid {
     grid-template-columns: 1fr;
   }
 
-  .learn-card, .learn-carda, .learn-cardb, .learn-cardc, .learn-cardd, .learn-carde, .learn-cardf, .learn-cardg {
+.learn-card, .learn-carda, .learn-cardb, .learn-cardc, .learn-cardd, .learn-carde, .learn-cardf, .learn-cardg {
     padding: 1rem;
     margin-bottom: 1rem;
   }
 
-  .checklist-section {
+.checklist-section {
     padding: 1.5rem 1rem;
   }
 
-  .quiz-section {
+.quiz-section {
     padding: 2rem 1rem;
   }
 
-  .start-quiz-button {
+.start-quiz-button {
     width: 100%;
     font-size: 1.1rem;
   }
 
-  footer {
+footer {
     text-align: center;
     padding: 1rem;
   }
