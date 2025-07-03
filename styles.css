@@ -91,22 +91,32 @@ progress::-webkit-progress-value {
 @media (max-width: 768px) {
 
 body {
-    font-size: 21px;
+    font-size: 18px;
     padding: 0 1rem;
   }
 
+section{
+    backdrop-filter: blur(10px);
+}
 header {
     font-size: 24px;
     text-align: center;
     font-weight: bold;
   }
+	
 nav{
-   padding-bottom: 500px;
+   padding-bottom: 50px;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+	
 a{
-   size: 20px;
-   padding: 20px 25px;
+   font-size: 20px;
+   padding: 44px;
   }
 .learn-grid {
     grid-template-columns: 1fr;
